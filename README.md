@@ -47,8 +47,6 @@ Forecasting monthly individual health insurance claim **frequency**, **severity*
 
 ## FindIT DAC 2026 — Face Spoofing Detection
 
-📓 [View notebook](FindIT%20DAC%202026/findit-face-spoofing-detection.ipynb)
+📓 [View notebook](FindIT%20DAC%202026/findit.ipynb)
 
 A computer vision pipeline for classifying face images into 6 categories — one real and five spoofing attack types (print, screen, mask, mannequin, unknown) — evaluated with Macro F1-Score. The solution starts with a rigorous data cleaning phase (34 cross-class duplicates removed, 189 label corrections), then trains a **three-backbone ensemble** (ConvNeXt-Large, DINOv2-Large, Swin-Large) via stratified 5-fold cross-validation with a freeze→unfreeze fine-tuning strategy. Final predictions use weighted average ensemble probabilities (ConvNeXt 2× weight) plus 4-variant Test-Time Augmentation, with targeted manual label overrides on low-confidence test samples.
-
-**Best public leaderboard score: Macro F1 = 0.79426**
