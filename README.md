@@ -1,6 +1,4 @@
-# 📊 Data Science Competition Portfolio
-
-A collection of my competition notebooks covering tabular ML, time series forecasting, and exploratory data analysis.
+A collection of my competition notebooks.
 
 ---
 
@@ -19,9 +17,11 @@ Forecasting daily ISPU air quality categories (BAIK · SEDANG · TIDAK SEHAT) fo
 *Air quality category distribution per station (Sep–Nov). DKI4 skews heavily toward TIDAK SEHAT while DKI1 (Bundaran HI) is dominated by BAIK days.*
 
 ![Season Comparison](Arkavidia%20Datavidia%2010/images/season_comparison.png)
+
 *Dry season (18.2%) sees significantly more TIDAK SEHAT days than wet season (12.2%), driven by stagnant wind and lower rainfall.*
 
 ![Heatmap](Arkavidia%20Datavidia%2010/images/station_month_heatmap.png)
+
 *Station × month heatmap of TIDAK SEHAT rate. DKI4 is persistently high-risk; the Sep–Oct window is the peak danger period.*
 
 ---
